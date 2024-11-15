@@ -17,6 +17,125 @@
             flex-direction: column;
             position: relative;
         }
+        #userInfo {
+            width: 100%;
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            padding: 16px;
+            box-sizing: border-box;
+            background-color: black;
+            border-radius: 8px;
+        }
+
+        /* New style for the uninstall button */
+        .uninstall-button {
+            position: relative;
+            background-color: black;
+            color: #ff4444;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            width: 100%;
+            cursor: pointer;
+            font-family: monospace;
+            z-index: 1;
+        }
+
+        .uninstall-button::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            background: linear-gradient(45deg, #ff4444, #ff6b6b, #ff8787);
+            border-radius: 9px;
+            z-index: -1;
+            transition: opacity 0.3s ease;
+            opacity: 0.5;
+        }
+
+        .uninstall-button::after {
+            content: '';
+            position: absolute;
+            inset: 1px;
+            background: black;
+            border-radius: 7px;
+            z-index: -1;
+        }
+
+        .uninstall-button:hover::before {
+            opacity: 1;
+            filter: blur(2px);
+        }
+
+        .uninstall-button:hover {
+            transform: scale(1.02);
+        }
+        .info-message {
+            background: linear-gradient(45deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .info-message .main-message {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .info-message a {
+            color: #3b82f6;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .info-message a:hover {
+            color: #8b5cf6;
+            text-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+        }
+
+        .important-note {
+            color: #ec4899;
+            font-weight: bold;
+            margin-top: 8px;
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 0 8px;
+        }
+        .shortcuts-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .shortcuts-list li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        #shortcuts .info-message {
+            margin-bottom: 0; /* Remove top margin */
+            text-align: left;
+        }
+
+        #shortcuts .info-message h3 {
+            text-align: center;
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+        
         /* New Toggle Switch Styles */
         .toggle-container {
             display: flex;
@@ -237,6 +356,11 @@
 </head>
 <body>
     <div class="flex gap-4">
+        <div class="info-message">
+            <p class="main-message">To get your credentials, please visit <a href="https://freeneopass.vercel.app" target="_blank">our website</a></p>
+            <p class="important-note">⚠️Our database has been reset recently⚠️</p>
+            <p class="important-note">Please revisit the website to get your new credentials.</p>
+        </div>
         <!-- Status Message -->
         <div id="statusMessage" class="text-sm glow"></div>
         
@@ -277,30 +401,38 @@
             </div>
         </form>
 
-        <!-- User Info -->
-        <div id="userInfo" class="hidden">
-            <div class="relative">
-                <button 
-                    id="logoutButton"
-                    class="glow-button"
-                >
-                    Logout
-                </button>
-            </div>
-            <!-- Shortcuts Section -->
-            <div id="shortcuts" class="hidden">
+        <!-- Shortcuts Section -->
+        <div id="shortcuts" class="hidden">
+            <div class="info-message"> <!-- Reuse the info-message class for consistent styling -->
                 <h3 class="text-sm mb-2 glow">Keyboard Shortcuts:</h3>
-                <ul class="text-sm mb-4">
-                    <li><strong class="glow">Alt + Shift + N:</strong> Solve NPTEL MCQs (Note: Select question only)</li>
+                <ul class="text-sm mb-4 shortcuts-list">
+                    <li><strong class="glow">Alt + Shift + N:</strong> Solve NPTEL MCQs</li>
                     <li><strong class="glow">Alt + Shift + Q:</strong> Solve IamNeo MCQs</li>
                     <li><strong class="glow">Alt + Shift + Z:</strong> Search Answers & Resources Using AI</li>
-                    <li><strong class="glow">Alt + Shift + X:</strong> Solve MCQs By Selecting</li>
+                    <li><strong class="glow">Alt + Shift + X:</strong> Solve MCQs By Selecting Text</li>
                     <li><strong class="glow">Alt + Shift + V:</strong> Paste Content Even When Restricted</li>
                     <li><strong class="glow">Alt + C:</strong> Toggle Chatbot Overlay</li>
                 </ul>
             </div>
-        </div>
+        </div>        
 
+        <!-- User Info -->
+        <div id="userInfo" class="hidden">
+            <div class="button-container">
+                <button 
+                    id="logoutButton"
+                    class="glow-button thick-label"
+                >
+                    Logout
+                </button>
+                <button 
+                    id="uninstallButton"
+                    class="uninstall-button thick-label"
+                >
+                    Uninstall Extension
+                </button>
+            </div>
+        </div>
         <!-- Error Message -->
         <div id="error" class="error-message"></div>
     </div>
