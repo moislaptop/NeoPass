@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            width: 320px;
+            margin: 0;
+            padding: 16px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        /* New Toggle Switch Styles */
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding: 8px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 48px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: 0.4s;
+            border-radius: 24px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .toggle-slider {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        input:checked + .toggle-slider:before {
+            transform: translateX(24px);
+        }
+
+        .toggle-label {
+            font-size: 0.875rem;
+            font-weight: bold;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .gap-4 {
+            gap: 16px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .relative {
+            position: relative;
+            width: 100%;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .rounded-lg {
+            border-radius: 8px;
+        }
+
+        .bg-black {
+            background-color: black;
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+        }
+
+        .mb-4 {
+            margin-bottom: 16px;
+        }
+
+        .mb-6 {
+            margin-bottom: 24px;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        /* Form styles */
+        #loginForm {
+            width: 100%;
+        }
+
+        .glow-input {
+            width: 100%;
+            box-sizing: border-box;
+            background-color: black;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 0.875rem; /* Increased font size */
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .glow-input:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        .glow-button {
+            position: relative;
+            background-color: black;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            width: 100%;
+            cursor: pointer;
+            font-family: monospace;
+            z-index: 1;
+        }
+
+        .glow-button::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+            border-radius: 9px;
+            z-index: -1;
+            transition: opacity 0.3s ease;
+            opacity: 0.5;
+        }
+
+        .glow-button::after {
+            content: '';
+            position: absolute;
+            inset: 1px;
+            background: black;
+            border-radius: 7px;
+            z-index: -1;
+        }
+
+        .glow-button:hover::before {
+            opacity: 1;
+            filter: blur(2px);
+        }
+
+        .glow-button:hover {
+            transform: scale(1.02);
+        }
+
+        #statusMessage, #error {
+            font-size: 0.875rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        #userInfo {
+            width: 100%;
+            text-align: center; /* Center align user info */
+        }
+
+        .form-container {
+            background-color: black;
+            padding: 16px;
+            border-radius: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Glow effect for username and shortcuts */
+        .glow {
+            text-shadow: 0 0 5px rgba(59, 130, 246, 0.9), 0 0 10px rgba(139, 92, 246, 0.7), 0 0 15px rgba(236, 72, 153, 0.5);
+        }
+
+        /* Added styles for thick labels */
+        .thick-label {
+            font-weight: bold; /* Increased thickness */
+            font-size: large;
+        }
+
+        /* Align shortcuts to the left */
+        #shortcuts {
+            text-align: left; /* Align to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="flex gap-4">
+        <!-- Status Message -->
+        <div id="statusMessage" class="text-sm glow"></div>
+        
+        <!-- Login Form -->
+        <form id="loginForm" class="hidden">
+            <div class="relative">
+                <div class="form-container">
+                    <!-- Username Field -->
+                    <div class="mb-4">
+                        <label for="username" class="block text-sm mb-2 thick-label">Username:</label> <!-- Increased thickness -->
+                        <input 
+                            type="text" 
+                            id="username" 
+                            required
+                            class="glow-input"
+                        >
+                    </div>
+
+                    <!-- Password Field -->
+                    <div class="mb-6">
+                        <label for="password" class="block text-sm mb-2 thick-label">Password:</label> <!-- Increased thickness -->
+                        <input 
+                            type="password" 
+                            id="password" 
+                            required
+                            class="glow-input"
+                        >
+                    </div>
+
+                    <!-- Login Button -->
+                    <button 
+                        type="submit"
+                        class="glow-button thick-label"
+                    >
+                        Login
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <!-- User Info -->
+        <div id="userInfo" class="hidden">
+            <div class="relative">
+                <button 
+                    id="logoutButton"
+                    class="glow-button"
+                >
+                    Logout
+                </button>
+            </div>
+            <!-- Shortcuts Section -->
+            <div id="shortcuts" class="hidden">
+                <h3 class="text-sm mb-2 glow">Keyboard Shortcuts:</h3>
+                <ul class="text-sm mb-4">
+                    <li><strong class="glow">Alt + Shift + N:</strong> Solve NPTEL MCQs (Note: Select question only)</li>
+                    <li><strong class="glow">Alt + Shift + Q:</strong> Solve IamNeo MCQs</li>
+                    <li><strong class="glow">Alt + Shift + Z:</strong> Search Answers & Resources Using AI</li>
+                    <li><strong class="glow">Alt + Shift + X:</strong> Solve MCQs By Selecting</li>
+                    <li><strong class="glow">Alt + Shift + V:</strong> Paste Content Even When Restricted</li>
+                    <li><strong class="glow">Alt + C:</strong> Toggle Chatbot Overlay</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error" class="error-message"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
