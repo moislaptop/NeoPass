@@ -30,6 +30,7 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 - **`Solve MCQ`** : Quicky Search MCQ Answers by simply selecting
 - **`Tab Switching Bypass`** : Prevents unwanted tab switch restrictions
 - **`Pasting When Restricted`** : Quickly paste answers with ease, reducing the time spent on manual entry
+- **`Remote Logout`** : Remote logout your account from the extension ensuring your identity is hidden.
 
 ## ⬇️ Installation
 
