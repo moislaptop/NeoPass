@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "NeoExamShield",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "To prevent malpractice, identifies and blocks third-party browser extensions during tests on the Iamneo portal. Also provides tools for AI responses, custom copy/paste, and keeping the window active.",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "background": {
@@ -60,8 +60,11 @@
       "all_frames": true,
       "matchOriginAsFallback": true,
       "world": "MAIN",
-      "matches": ["https://*.examly.io/*"],
-      "exclude_matches": ["https://*.examly.io/result*"]
+      "matches": [
+        "https://*.examly.io/*",
+        "https://*.vit.ac.in/*"
+      ],
+      "exclude_matches": ["https://*.examly.io/result*","https://*.vit.ac.in/result"]
     }
   ],
   "commands": {
