@@ -4,12 +4,12 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 
 ---
 
-### [**Make sure to visit our website for the best experience!**](https://freeneopass.vercel.app) 🌐
+### [**Make sure to visit our website for the best experience!**](https://www.freeneopass.tech) 🌐
 
 <samp>
   
 > [!IMPORTANT]
-> **Get Your Credentials**: To obtain your credentials, it is essential to visit the website [freeneopass.vercel.app](https://freeneopass.vercel.app) and follow the instructions provided there.  
+> **Get Your Credentials**: To obtain your credentials, it is essential to visit the website [freeneopass.tech](https://www.freeneopass.tech) and follow the instructions provided there.  
 > Accessing the website is crucial for a seamless experience with the extension.  
 > **Note:** Your credentials may be revoked at any point in time.
 
@@ -17,9 +17,6 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 > **Educational Purposes Only**: This extension is intended for educational purposes. Please use it responsibly and ethically.  
 > I am not responsible for any actions taken, and I do not encourage or promote cheating in any way.  
 > Be cautious when using the extension to maintain academic integrity.
-
-> [!WARNING]
-> **Exiting Fullscreen**: Exiting fullscreen mode may cause the test to submit after certain attempts, instead, use **`Alt + Tab`**
 
 ## ✨ Features
 
@@ -42,7 +39,7 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 
 ## 🛠️ Usage
 
-Once installed, **login with your credentials** obtained from our [website](https://freeneopass.vercel.app).<br>The extension will activate once you **refresh the page**.
+Once installed, **login with your credentials** obtained from our [website](https://www.freeneopass.tech).<br>The extension will activate once you **refresh the page**.
 
 ## ⌨️ Shortcuts
 
