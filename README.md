@@ -43,9 +43,9 @@ Once installed, **login with your credentials** obtained from our [website](http
 
 ## ⌨️ Shortcuts
 
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs/Coding Questions Quickly [HOT]
 - <kbd>Alt</kbd> + <kbd>C</kbd> : Open/Close Chatbot [New]
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> : Solve NPTEL Wildlife Ecology MCQs [New]
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs Quickly [New]
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd> : Search answers and code from selected text  
   **`Note`** : Answers are saved in the clipboard so you can use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> on a text box  
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> : Search MCQs from selected text
