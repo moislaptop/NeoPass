@@ -22,9 +22,9 @@
             text-align: center;
         }
 
+        /* Update button container styles */
         .button-container {
             display: flex;
-            flex-direction: column;
             gap: 12px;
             width: 100%;
             padding: 16px;
@@ -399,12 +399,36 @@
 
         .hot-feature {
             font-size: 0.7rem;
-            background: linear-gradient(45deg, #ff4444, #ff8787);
             padding: 2px 6px;
             border-radius: 4px;
             margin-left: 8px;
             font-weight: bold;
             animation: pulse 2s infinite;
+        }
+
+        .tag-version {
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+            color: white;
+        }
+
+        .tag-mcq {
+            background: linear-gradient(45deg, #f59e0b, #f97316);
+            color: white;
+        }
+
+        .tag-coding {
+            background: linear-gradient(45deg, #10b981, #059669);
+            color: white;
+        }
+
+        .tag-stealth {
+            background: linear-gradient(45deg, #dc2626, #ef4444);
+            color: white;
+        }
+
+        .tag-old {
+            background: linear-gradient(45deg, #6b7280, #4b5563);
+            color: white;
         }
 
         @keyframes pulse {
@@ -505,8 +529,8 @@
             <div class="info-message"> <!-- Reuse the info-message class for consistent styling -->
                 <h3 class="text-sm mb-2 glow">Keyboard Shortcuts:</h3>
                 <ul class="text-sm mb-4 shortcuts-list">
-                    <li><strong class="glow">Alt + Shift + Z:</strong> Search Answers & Resources Using AI</li>
-                    <li><strong class="glow">Alt + Shift + X:</strong> Solve MCQs By Selecting Text</li>
+                    <li><strong class="glow">Alt + Shift + Z:</strong> Search Coding Answers Using AI</li>
+                    <li><strong class="glow">Alt + Shift + X:</strong> Solve MCQs By Selecting Text Using AI</li>
                     <li><strong class="glow">Alt + C:</strong> Toggle Chatbot Overlay</li>
                     <li><strong class="glow">Ctrl + V:</strong> Paste Content Even When Restricted</li>
                 </ul>
@@ -516,8 +540,22 @@
                     <ul class="text-sm mb-4 shortcuts-list">
                         <li>
                             <strong class="glow">Alt + Shift + Q:</strong> 
-                            Solve IamNeo/Examly Questions
-                            <span class="hot-feature">HOT!</span>
+                            Answer Neo Questions with 100% Accuracy
+                            <span class="hot-feature tag-version">V1.2</span>
+                            <span class="hot-feature tag-mcq">MCQ</span>
+                            <span class="hot-feature tag-coding">CODING</span>
+                        </li>
+                        <li>
+                            <strong class="glow">Alt + Shift + T:</strong> 
+                            Type Neo Coding Answers Automatically
+                            <br>
+                            <span class="hot-feature tag-stealth">STEALTH</span>
+                            <span class="hot-feature tag-coding">CODING</span>
+                        </li>
+                        <li>
+                            <strong class="glow">Alt + Shift + A:</strong> 
+                            Search Neo Answers Using AI
+                            <span class="hot-feature tag-old">OLD</span>
                         </li>
                         <li><strong class="glow">Alt + Shift + N:</strong> Solve NPTEL MCQs</li>
                     </ul>

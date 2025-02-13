@@ -1,31 +1,49 @@
 {
   "manifest_version": 3,
   "name": "NeoExamShield",
-  "version": "1.0.3",
+  "version": "1.2.0",
   "description": "To prevent malpractice, identifies and blocks third-party browser extensions during tests on the Iamneo portal. Also provides tools for AI responses, custom copy/paste, and keeping the window active.",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "background": {
     "service_worker": "background.js"
   },
-  "web_accessible_resources": [{
-    "resources": ["data/lib/showdown.min.js"],
-    "matches": ["<all_urls>"]
-  }],
+"web_accessible_resources": [{
+    "resources": [
+        "data/inject/manifest.js",
+        "data/inject/exam.js",
+        "data/lib/showdown.min.js",
+        "metadata.json",
+        "background.js",
+        "contentScript.js",
+        "minifiedBackground.js",
+        "minifiedContent-script.js",
+        "rules.json",
+        "manifest.json"
+
+    ],
+    "matches": ["http://*/*", "https://*/*"]
+}],
   "permissions": [
     "management",
     "tabs",
     "activeTab",
-    "contextMenus",
+    "contextMenus",   
     "clipboardWrite",
     "clipboardRead",
     "storage",
     "scripting",
     "downloads",
-    "windows"
+    "windows",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "*://*/*"
+      "*://*/*"
   ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyXKMSllCpa1zHLw0m7CbO1iAsi0iwQ5Ij45LbZsuvVnmmL0ahjrv+Rfbks1gZ2rE3nqJCvbyT9VUNMGlW9a09BTlRzrm9RhqaAdN6Mg4Y1fEdwQ6fB/UZG5eGEHKUmilxZrkfgfqVwPauLyIYBxTTyIJcYBQvg4mY1WutMpliP2Xbyva2f+t8iiXDer1lvqprNSbFv15bkwz6G5TJxTmvfK/yWKZUqPuI14WPyeo4KO5OA6+5aXONWw6S62n0D8LbadlkQMJM/Tn24tKAjSST0WpIViOn/rNOd/p1lTlrtXD9NkF3jDLblo+H0UwuItl+qhZd2why9tuejHGKWnS/wIDAQAB",
+  "externally_connectable": {
+     "matches": ["http://*/*", "https://*/*"]
+   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -98,6 +116,5 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
-  "version_name": "Release Version",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41rIOYBJkYaRSfAOUOWwgCe0X/0rW+Cn04kAuM1j2i0i461w5IodNoMQMOGixC8vK1hrDnxHVfgTh/NsYVK0Dl9I/BAiSdA8o3JWCMqqLk2ZMy4022lH+apQ0aDSmMJfrdLxS411N0Vyo3QCHisFy7cYfQAjc0z1KcuahkrPa6MoVSlJo6yN5601xR0ezeZiIeiweCqK4YKxziQ8dRSj6X5SQ1DXCDKfC8/1Ssam8cY2vn9GHm6ICL4nkPInZB8MBLdzjiEXxs9ciWrkxUfIOa5ewH1dXBeBSfll8ukM5G+5t3KxJyJM0JZLJZfVHWk5PZZLoa6YCja1YnUhUazXOQIDAQAB"
+  "version_name": "Release Version"
 }
