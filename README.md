@@ -1,4 +1,4 @@
-# <i>**`Free`** NeoPass Extension</i>
+# <i>**`Free`** NeoPass Extension FIXED</i>
 
 This chrome extension is for students taking tests on the **`Iamneo portal`**, **`Wildlife Ecology NPTEL`**<br> and `other exam portals` that restrict your abilities
 
@@ -43,17 +43,14 @@ Once installed, **login with your credentials** obtained from our [website](http
 
 ## ⌨️ Shortcuts
 
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs/Coding Questions Quickly [HOT]
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs/Coding Questions with 100% ACCURACY [HOT]
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> : Type Iam Neo Coding Questions One by One [Stealth]
 - <kbd>Alt</kbd> + <kbd>C</kbd> : Open/Close Chatbot [New]
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> : Solve NPTEL Wildlife Ecology MCQs [New]
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd> : Search answers and code from selected text  
   **`Note`** : Answers are saved in the clipboard so you can use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> on a text box  
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> : Search MCQs from selected text
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> : Paste content when blocked
-
-## ❤️ Special Thanks 
-
-This project is heavily inspired by thottathukiduven. Huge credits to Sreecharan. You can check out his repository [here](https://github.com/sr2echa). For more advanced features, including GPT-4 capabilities, consider getting the paid version from his website: [Thotta](https://thotta.vercel.app).
 
 ## 💬 Feedback
 
