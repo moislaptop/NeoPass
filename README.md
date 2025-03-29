@@ -56,7 +56,7 @@ Once installed, **login with your credentials** obtained from our [website](http
 
 We'd love to hear your thoughts! If you encounter any issues or have suggestions for improvement, please reach out. Your feedback is invaluable! 💌
 
-📧 **Contact me at:** [praveenchn2004@gmail.com](mailto:praveenchn2004@gmail.com)
+📧 **Contact me at:** [freeneopass@gmail.com](mailto:freeneopass@gmail.com)
 
 ## License
 
