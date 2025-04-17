@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "NeoExamShield",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "To prevent malpractice, identifies and blocks third-party browser extensions during tests on the Iamneo portal. Also provides tools for AI responses, custom copy/paste, and keeping the window active.",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "background": {
@@ -9,8 +9,8 @@
   },
 "web_accessible_resources": [{
     "resources": [
-        "data/inject/manifest.js",
-        "data/inject/exam.js",
+        "data/inject/xPIU7lVB5aBMCrz.js",
+        "data/inject/QXUjFOs2zO59cpm.js",
         "data/lib/showdown.min.js",
         "metadata.json",
         "background.js",
@@ -35,7 +35,8 @@
     "downloads",
     "windows",
     "declarativeNetRequest",
-    "declarativeNetRequestWithHostAccess"
+    "declarativeNetRequestWithHostAccess",
+    "alarms"
   ],
   "host_permissions": [
       "*://*/*"
@@ -59,11 +60,11 @@
         "http://*/*"
       ],
       "js": [
-        "data/inject/rightclickmenu.js",
-        "data/inject/isolated.js",
-        "data/inject/content.js",
-        "data/inject/main.js",
-        "data/inject/chatbot.js",
+        "data/inject/W0jChzYSmQDvvhE.js",
+        "data/inject/CJd9TLHVA1sCsit.js",
+        "data/inject/Dgav39DCdb3fBZn.js",
+        "data/inject/hqlKuji2AztfIo1.js",
+        "data/inject/WfTpJEdiZnC4MwV.js",
         "data/lib/showdown.min.js",
         "contentScript.js"
       ],
@@ -73,7 +74,7 @@
       ]
     },
     {
-      "js": ["data/inject/screenshare.js"],
+      "js": ["data/inject/NdDUsTMOaA9eZIR.js"],
       "run_at": "document_start",
       "all_frames": true,
       "matchOriginAsFallback": true,
