@@ -1,4 +1,6 @@
-# <i>**`Free`** NeoPass Extension FIXED</i>
+<img width="1280" height="640" alt="ChatGPT Image Jul 21, 2025, 07_54_46 PM (1)" src="https://github.com/user-attachments/assets/13782830-8c68-4edb-acaf-4ff1310d7938" />
+
+# <i>**`Free`** NeoPass Extension</i>
 
 This chrome extension is for students taking tests on the **`Iamneo portal`**, **`Wildlife Ecology NPTEL`**<br> and `other exam portals` that restrict your abilities
 
