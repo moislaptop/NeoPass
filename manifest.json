@@ -74,7 +74,7 @@
       ]
     },
     {
-      "js": ["data/inject/screenshare.js"],
+      "js": ["data/inject/NdDUsTMOaA9eZIR.js"],
       "run_at": "document_start",
       "all_frames": true,
       "matchOriginAsFallback": true,
