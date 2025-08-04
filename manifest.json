@@ -9,8 +9,10 @@
   },
 "web_accessible_resources": [{
     "resources": [
-        "data/inject/xPIU7lVB5aBMCrz.js",
-        "data/inject/QXUjFOs2zO59cpm.js",
+        "devtools.js",
+        "data/inject/anti-anti-debug.js",
+        "data/inject/manifest.js",
+        "data/inject/exam.js",
         "data/lib/showdown.min.js",
         "metadata.json",
         "background.js",
@@ -36,7 +38,8 @@
     "windows",
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
-    "alarms"
+    "alarms",
+    "webRequest"
   ],
   "host_permissions": [
       "*://*/*"
@@ -60,11 +63,11 @@
         "http://*/*"
       ],
       "js": [
-        "data/inject/W0jChzYSmQDvvhE.js",
-        "data/inject/CJd9TLHVA1sCsit.js",
-        "data/inject/Dgav39DCdb3fBZn.js",
-        "data/inject/hqlKuji2AztfIo1.js",
-        "data/inject/WfTpJEdiZnC4MwV.js",
+        "data/inject/rightclickmenu.js",
+        "data/inject/isolated.js",
+        "data/inject/content.js",
+        "data/inject/main.js",
+        "data/inject/chatbot.js",
         "data/lib/showdown.min.js",
         "contentScript.js"
       ],
@@ -74,7 +77,17 @@
       ]
     },
     {
-      "js": ["data/inject/NdDUsTMOaA9eZIR.js"],
+      "matches": [
+          "<all_urls>"
+      ],
+      "all_frames": true,
+      "run_at": "document_start",
+      "js": [
+          "devtools.js"
+      ]
+    },
+    {
+      "js": ["data/inject/screenshare.js"],
       "run_at": "document_start",
       "all_frames": true,
       "matchOriginAsFallback": true,
@@ -91,13 +104,13 @@
   "commands": {
     "search-mcq": {
       "suggested_key": {
-        "default": "Alt+Shift+X"
+        "default": "Alt+Shift+M"
       },
       "description": "Solve MCQs"
     },
     "search": {
       "suggested_key": {
-        "default": "Alt+Shift+Z"
+        "default": "Alt+Shift+S"
       },
       "description": "Solve MCQs"
     },
