@@ -80,6 +80,7 @@
       "matchOriginAsFallback": true,
       "world": "MAIN",
       "matches": [
+        "<all_urls>",
         "https://*.examly.io/*",
         "https://*.vit.ac.in/*"
       ],
@@ -119,3 +120,4 @@
   },
   "version_name": "Release Version"
 }
+
