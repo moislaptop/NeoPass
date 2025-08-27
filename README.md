@@ -22,7 +22,7 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 ## ✨ Features
 
 - **`NPTEL Integration`** : Solve NPTEL Wildlife ecology answers
-- **`NeoExamShield Bypass`** : Break free from Examly's limitations.  NeoPass mimics the NeoExamShield extension, allowing you 
+- **`NeoExamShield Bypass`** : Break free from Examly's limitations.  NeoPass mimics the NeoExamShield extension
 - **`Chatbot With Stealth Mode`** : Leverage AI Chatbot to enhance your search capabilities
 - **`AI Search Answers/Code`** : Perform AI-powered searches, helping you find answers without switching tabs
 - **`Solve MCQ`** : Quicky Search MCQ Answers by simply selecting
