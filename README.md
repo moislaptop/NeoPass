@@ -53,7 +53,7 @@ Once installed, **login with your credentials** obtained from our [website](http
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> : Solve NPTEL Wildlife Ecology and Conservation Economics MCQs [New]
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> : Search answers and code from selected text  
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> : Search MCQs from selected text
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> : Paste content when blocked
+- <kbd>Ctrl</kbd> + <kbd>V</kbd> : Paste content when blocked
 - <kbd>Alt</kbd> + <kbd>C</kbd> : Open/Close Chatbot [New]
 
 ## 🤝 Contribute or Add NPTEL Dataset
