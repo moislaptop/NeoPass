@@ -49,14 +49,16 @@ Once installed, **login with your credentials** obtained from our [website](http
 
 ## ⌨️ Shortcuts
 
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs/Coding Questions with 100% ACCURACY [HOT]
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> : Solve Iam Neo MCQs/Coding Questions with 100% ACCURACY
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> : Solve Iam Neo MCQs/Coding Questions with using AI [Backup]
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> : Type Iam Neo Coding Questions One by One [Stealth]
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> : Solve NPTEL MCQs [New]
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> : Search answers and code from selected text  
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> : Search MCQs from selected text
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> : Type Iam Neo Coding Questions One by One
+> [!NOTE]
+> The following shortcuts **require text to be selected** before activation:  
+> - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> : Solve NPTEL MCQs from selected text
+> - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> : Search answers and code from selected text  
+> - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> : Search MCQs from selected text
 - <kbd>Ctrl</kbd> + <kbd>V</kbd> : Paste content when blocked
-- <kbd>Alt</kbd> + <kbd>C</kbd> : Open/Close Chatbot [New]
+- <kbd>Alt</kbd> + <kbd>C</kbd> : Open/Close Chatbot
 
 ## 🤝 Contribute or Add NPTEL Dataset
 
