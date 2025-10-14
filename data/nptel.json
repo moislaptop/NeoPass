@@ -1695,5 +1695,482 @@
     {
         "question": "Moho discontinuity occurs between",
         "answer": "Crust and mantle"
-    }
+    },
+    {
+    "question": "What is Psychology?",
+    "answer": "A study of cognitive processes & behavior"
+  },
+  {
+    "question": "A broad field of study that explores a variety of questions about thoughts, feelings and actions is ______?",
+    "answer": "Psychology"
+  },
+  {
+    "question": "A systematic assessment that provides information on political views, consumer buying habits and many other topics is called__________?",
+    "answer": "Survey"
+  },
+  {
+    "question": "The word Psyche means _________?",
+    "answer": "Mind or soul"
+  },
+  {
+    "question": "Who established psychology laboratory in Germany?",
+    "answer": "Wilhelm Wundt"
+  },
+  {
+    "question": "“To help people to function effectively and fulfill their own unique potential” is the aim of_________?",
+    "answer": "Humanistic psychology"
+  },
+  {
+    "question": "Behaviorists use a learning process to change abnormal behavior is called_________?",
+    "answer": "Conditioning"
+  },
+  {
+    "question": "The study of changes in behavior during life time is called ______.",
+    "answer": "Developmental Psychology"
+  },
+  {
+    "question": "The study of differences and similarities in the behavior of animals of different species is called ____________________.",
+    "answer": "Comparative Psychology"
+  },
+  {
+    "question": "Which of the following is true regarding learning in psychology?",
+    "answer": "Learning can be defined in many ways"
+  },
+  {
+    "question": "Learning is seen as an effect attributed to an element in ___.",
+    "answer": "environment"
+  },
+  {
+    "question": "Non-associative learning refers to ___ in the intensity of a response as the result of the repeated presentation of a stimulus.",
+    "answer": "a decrease"
+  },
+  {
+    "question": "Which of the following is a type of learning style?",
+    "answer": "all of the above"
+  },
+  {
+    "question": "‘Psychology as the Behaviorist Views It’ is the famous work of ___.",
+    "answer": "John Watson"
+  },
+  {
+    "question": "The state of conscious incompetence may be valuable ___ of a learning experience.",
+    "answer": "at the start"
+  },
+  {
+    "question": "Adding to existing student knowledge is known as ___.",
+    "answer": "conceptual growth"
+  },
+  {
+    "question": "Deliberate practice involves the following, except ___.",
+    "answer": "forgetting"
+  },
+  {
+    "question": "Students persist in the face of challenging tasks and process information more deeply when they adopt ___ goals.",
+    "answer": "mastery"
+  },
+  {
+    "question": "___ refers to a decrease in response rate while ___ refers to an increase in response rate.",
+    "answer": "habituation, sensitization"
+  },
+  {
+    "question": "According to constructivism, reality is determined by ___ .",
+    "answer": "the experiences of the learner"
+  },
+  {
+    "question": "Teachers and instructors who understand the constructivist learning theory understand that their students ___.",
+    "answer": "bring their own unique experiences"
+  },
+  {
+    "question": "The domain of social constructivism is largely attributed to the work done by ___ by adding the focus on societal and peer influence on learning.",
+    "answer": "Lev Vygotsky"
+  },
+  {
+    "question": "Which of the following is not a major type of learning described by behavioral psychology?",
+    "answer": "traditional learning"
+  },
+  {
+    "question": "Which of the following is true according to behaviorism?",
+    "answer": "all behaviors can be unlearned"
+  },
+  {
+    "question": "In ___ conditioning, presentation of unconditioned stimulus precedes the presentation of the conditioned stimulus.",
+    "answer": "backward"
+  },
+  {
+    "question": "Smiling and complimenting students for good performance is a type of ____.",
+    "answer": "positive reinforcement"
+  },
+  {
+    "question": "Which of the following psychologists was instrumental in engendering the dramatic shift from behaviorism to cognitive theories?",
+    "answer": "All of the above"
+  },
+  {
+    "question": "IQ is a typical measurement for ___.",
+    "answer": "intelligence"
+  },
+  {
+    "question": "BBL deals with the concept of learning in a ___ context.",
+    "answer": "neuro-physiological"
+  },
+  {
+    "question": "Which of the following is true?",
+    "answer": "Human memory involves the ability to both preserve and recover information"
+  },
+  {
+    "question": "___ refers to connections between the nerve cells",
+    "answer": "Synapses"
+  },
+  {
+    "question": "In order to create a new memory, information must be changed into ___.",
+    "answer": "a usable form"
+  },
+  {
+    "question": "The memory ___ process allows us to bring stored memories into conscious awareness.",
+    "answer": "retrieval"
+  },
+  {
+    "question": "Which of the following is not a major domain of cognition?",
+    "answer": "Aggression"
+  },
+  {
+    "question": "Which of the following is not an assumption of the information processing view?",
+    "answer": "There are limits on how much information can be processed"
+  },
+  {
+    "question": "___ refers to rote rehearsal of repetition",
+    "answer": "maintenance rehearsal"
+  },
+  {
+    "question": "___ presentations can enhance working memory capacity",
+    "answer": "multimodal"
+  },
+  {
+    "question": "Episodic and semantic memories are categorized under ___ memory",
+    "answer": "declarative"
+  },
+  {
+    "question": "According to the neural network model, memory capacity depends on ___",
+    "answer": "all of the above"
+  },
+  {
+    "question": "Creative thinking is the ability to generate ___ ideas.",
+    "answer": "all of the above"
+  },
+  {
+    "question": "___ are representative items within each concept.",
+    "answer": "Prototypes"
+  },
+  {
+    "question": "A mental representation can take the form of a ___.",
+    "answer": "all of the given"
+  },
+  {
+    "question": "Which of the following is true?",
+    "answer": "Thinking is a sub-vocal talking"
+  },
+  {
+    "question": "Cognitive architecture is a theory about the ___ that create a mind in natural or artificial systems.",
+    "answer": "structures"
+  },
+  {
+    "question": "Bloom’s Taxonomy is a system of hierarchical models (arranged in a hierarchical rank,) used to categorize ___ into varying levels of complexity.",
+    "answer": "learning objectives"
+  },
+  {
+    "question": "___ knowledge refers to knowledge of terminology and specific details.",
+    "answer": "Factual"
+  },
+  {
+    "question": "Choosing to skim subheadings of unimportant information to get to the information we need as a metacognitive skill is called ___.",
+    "answer": "Skimming"
+  },
+  {
+    "question": "___ refers to the ability to regulate your thoughts and set aside any personal biases to come to the best conclusion.",
+    "answer": "Self-regulation"
+  },
+  {
+    "question": "___ method of solving problems refers to a rule that guarantees the solution to a problem",
+    "answer": "algorithm"
+  },
+  {
+    "question": "Motivation is seen as a ___ that drives and directs human behavior.",
+    "answer": "mental impulse"
+  },
+  {
+    "question": "Which of the following is false regarding motivation?",
+    "answer": "Motivation can be directly observed"
+  },
+  {
+    "question": "Which of the following does not come under intrinsic motivation?",
+    "answer": "social pressure"
+  },
+  {
+    "question": "Doing something/behaving well because one feels pressure from within is called ___.",
+    "answer": "introjected regulation"
+  },
+  {
+    "question": "Which of the following is not a biological need/drive?",
+    "answer": "love"
+  },
+  {
+    "question": "___ theory suggests that people are motivated to take action in order to receive a reward.",
+    "answer": "incentive"
+  },
+  {
+    "question": "The Arousal Theory of Motivation was first proposed by ___.",
+    "answer": "Murray"
+  },
+  {
+    "question": "___ theory is based on the assumption that our behavior is based on making a conscious choice from a set of possible alternative behaviors.",
+    "answer": "expectancy"
+  },
+  {
+    "question": "Which of the following is not an attribute of effective goal setting?",
+    "answer": "unrealistic goals"
+  },
+  {
+    "question": "Maslow’s hierarchy of needs consists of ___ tiers.",
+    "answer": "five"
+  },
+  {
+    "question": "___ is mainly responsible for popularizing emotional intelligence.",
+    "answer": "Daniel Goleman"
+  },
+  {
+    "question": "EQ is used to measure __________.",
+    "answer": "emotional intelligence"
+  },
+  {
+    "question": "Experts suggest that EQ is more important than IQ.",
+    "answer": "True"
+  },
+  {
+    "question": "Being able to put words to feelings refers to ___.",
+    "answer": "emotional literacy"
+  },
+  {
+    "question": "The first step in emotional intelligence is ___.",
+    "answer": "perceiving emotions accurately"
+  },
+  {
+    "question": "According to nine-layer model pyramid, ___ lies at the bottom of the pyramid.",
+    "answer": "Emotional stimuli"
+  },
+  {
+    "question": "The mixed model by ___ claims that EQ is a combination of competencies, skills, and “facilitators” that contribute to how people express themselves, respond to challenges in their environment, and connect with others.",
+    "answer": "Bar-On"
+  },
+  {
+    "question": "The transfer of emotions from one person to another is called ___.",
+    "answer": "emotional contagion"
+  },
+  {
+    "question": "Hochschild has given the concept of ___ using the example of flight attendants.",
+    "answer": "emotional labor"
+  },
+  {
+    "question": "Review of literature shows that ___ is associated with increasing levels of burnout.",
+    "answer": "surface acting"
+  },
+  {
+    "question": "Which of the following is false about learning according to Gagne’s definition?",
+    "answer": "It is simply ascribable to processes of growth"
+  },
+  {
+    "question": "Manual or physical skills come under ___ component of Bloom’s taxonomy.",
+    "answer": "Psychomotor"
+  },
+  {
+    "question": "Reflection, learning and education was explored by ___.",
+    "answer": "John Dewey"
+  },
+  {
+    "question": "The principles of ___ refer to how close in time two events must be for a bond to be formed.",
+    "answer": "contiguity"
+  },
+  {
+    "question": "___ gives information to learners about their success or failure concerning the task at hand.",
+    "answer": "Cognitive feedback"
+  },
+  {
+    "question": "The ___ orientation to learning has a quality of personal involvement—the whole person in both feeling and cognitive aspects being in the learning event.",
+    "answer": "humanistic"
+  },
+  {
+    "question": "Learning through play is ___ learning.",
+    "answer": "active"
+  },
+  {
+    "question": "People with ___ learning style are prone to sorting their ideas after speaking, rather than thinking ideas through before.",
+    "answer": "auditory"
+  },
+  {
+    "question": "Which of the following statements is false?",
+    "answer": "Effective instruction is static"
+  },
+  {
+    "question": "In ADDIE model, I stand for ___.",
+    "answer": "implementation"
+  },
+  {
+    "question": "Pedagogy can be defined as a way of ___ any theoretical topic or academic subject.",
+    "answer": "teaching"
+  },
+  {
+    "question": "Good pedagogy is about ___.",
+    "answer": "eliciting responses that demonstrate understanding"
+  },
+  {
+    "question": "Which of the following is a pedagogical approach in teaching?",
+    "answer": "integrative"
+  },
+  {
+    "question": "According to the ___ approach, learners are the makers of meaning and knowledge.",
+    "answer": "constructivist learning"
+  },
+  {
+    "question": "Which of the following is false about inquiry-based learning?",
+    "answer": "is a form of passive learning"
+  },
+  {
+    "question": "The ___ model describes what effective teachers do in their classrooms to engage students in intellectually challenging work.",
+    "answer": "pedagogical"
+  },
+  {
+    "question": "In experiential learning, experiences are structured to require the student to ___.",
+    "answer": "all of the above"
+  },
+  {
+    "question": "The following are the roles of an instructor in experiential learning, except___.",
+    "answer": "blurring the boundaries"
+  },
+  {
+    "question": "Kolb's experiential learning style theory is typically represented by a ___ -stage learning cycle",
+    "answer": "four"
+  },
+  {
+    "question": "People with ___ learning style are hands-on learners, and rely on intuition over logic.",
+    "answer": "accommodating"
+  },
+  {
+    "question": "A ___ classroom is the changing face of learning.",
+    "answer": "digital"
+  },
+  {
+    "question": "Which of the following is not a feature of e-learning?",
+    "answer": "teacher-centeredness"
+  },
+  {
+    "question": "Which of the following is a synonym of e-learning?",
+    "answer": "none of the above"
+  },
+  {
+    "question": "In ___ e-learning course, the content is simple and comprises text, images, audio, power point presentation and text questions.",
+    "answer": "text-driven"
+  },
+  {
+    "question": "Recent thinking in cognitive psychology places the ___ firmly at the center of the learning experience.",
+    "answer": "individual"
+  },
+  {
+    "question": "Which of the following is true?",
+    "answer": "All of the above"
+  },
+  {
+    "question": "Learners may multitask when engaging in an online course, which could be resulting in ___.",
+    "answer": "shorter attention spans"
+  },
+  {
+    "question": "The brain can process ___ visual cues per hour!",
+    "answer": "36,000"
+  },
+  {
+    "question": "Our brain has approximately ___ neurons that send information to one another.",
+    "answer": "85 billion"
+  },
+  {
+    "question": "___ is referring to learners' automatic performance on specific procedures with predetermined steps to be followed.",
+    "answer": "chaining"
+  },
+  {
+    "question": "The ___ Model for New Normal in Education has been designed by many educational institutions.",
+    "answer": "Readiness"
+  },
+  {
+    "question": "The most critical factor that plays a significant role in the success of any remote learning program is the ___.",
+    "answer": "readiness of the participants"
+  },
+  {
+    "question": "The typical picture of a teacher being a ___ of knowledge to the students has been replaced.",
+    "answer": "dispenser"
+  },
+  {
+    "question": "What does today’s teacher need to be successful in the classroom?",
+    "answer": "all of the above"
+  },
+  {
+    "question": "Students who consider intelligence as a ___ entity tend to focus on their goals despite obstacles.",
+    "answer": "malleable"
+  },
+  {
+    "question": "___ feedback to students is important for learning.",
+    "answer": "all of the above"
+  },
+  {
+    "question": "Students tend to enjoy learning and have better outcomes when their motivation is more intrinsic than extrinsic.",
+    "answer": "True"
+  },
+  {
+    "question": "Long term goals are also called ___ goals.",
+    "answer": "distal"
+  },
+  {
+    "question": "Which of the following is an example of a reward?",
+    "answer": "all of the above"
+  },
+  {
+    "question": "___ is a teaching approach that generates feedback students can use to improve their performance.",
+    "answer": "Assessment for learning"
+  },
+  {
+    "question": "Social cognition is the cognitive processes that influence ___.",
+    "answer": "social behavior"
+  },
+  {
+    "question": "Smooth and adaptive social interactions depend on the recruitment of ___.",
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which of the following abilities does not come under social cognition?",
+    "answer": "rote memory"
+  },
+  {
+    "question": "Social cognition develops primarily in old age.",
+    "answer": "False"
+  },
+  {
+    "question": "A theory of mind refers to a person's ability to understand and think about the ___ of other people.",
+    "answer": "mental states"
+  },
+  {
+    "question": "The ___ theory details the processes of observational learning and modeling, and the influence of self-efficacy on the production of behavior.",
+    "answer": "social-cognitive"
+  },
+  {
+    "question": "___ processes account for the information that is selected for observation in the environment.",
+    "answer": "attentional"
+  },
+  {
+    "question": "Children become more aggressive when they observe aggressive or violent models.",
+    "answer": "True"
+  },
+  {
+    "question": "The ___ model of observational learning involves real or fictional characters displaying behaviors in books, films, television programs, or online media.",
+    "answer": "symbolic"
+  },
+  {
+    "question": "___ refers to the anticipated consequences of a person's behavior.",
+    "answer": "expectations"
+  }
+
 ]
