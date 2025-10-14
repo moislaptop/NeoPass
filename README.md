@@ -2,9 +2,7 @@
 
 # <i>**`Free`** NeoPass Extension</i>
 
-This chrome extension is for students taking tests on the **`Iamneo portal`**, **`Wildlife Ecology NPTEL`**<br> and `other exam portals` that restrict your abilities
-
----
+This chrome extension is for students taking tests on the **`Iamneo portal`**, **`Wildlife Ecology NPTEL`**<br>, **`conservation-geography NPTEL`**<br>, **`forest management NPTEL`**<br>  and `other exam portals in chrome browser` that restrict your abilities
 
 ### [**Make sure to visit our website for the best experience!**](https://www.freeneopass.tech) 🌐
 
@@ -39,9 +37,13 @@ This chrome extension is for students taking tests on the **`Iamneo portal`**, *
 5. Your NeoPass extension is now installed!
 
 ### Installation Guide Video
-[*Click to watch the installation tutorial*](https://drive.google.com/file/d/1PKyvMHfq8J9gI8JR8uCc38OmubYEXfd2/view)
 
-## 🛠️ Usage
+
+
+https://github.com/user-attachments/assets/89fb986c-2edb-4252-8232-dbd10beec0cf
+
+
+## 💻 Usage
 
 Once installed, **login with your credentials** obtained from our [website](https://www.freeneopass.tech).
 
