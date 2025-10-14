@@ -1578,5 +1578,50 @@
     {
         "question": "“allowing some places and some creatures to exist without significant human interference” is the definition of:",
         "answer": "preservation"
+    },
+    {
+      "question":
+        "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+      "answer": "1500 m"
+    },
+    {
+      "question": "Which of these uses imputed willingness to pay?",
+      "answer": "replacement cost method"
+    },
+    {
+      "question":
+        "“The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.” is a definition for",
+      "answer": "exposure"
+    },
+    {
+      "question":
+        "“A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation.” is a definition for",
+      "answer": "hazard"
+    },
+    {
+      "question":
+        "“A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.” is a definition for",
+      "answer": "disaster"
+    },
+    {
+      "question":
+        "“The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.” is a definition for",
+      "answer": "capacity"
+    },
+    {
+      "question": "Bathymetric LiDAR uses",
+      "answer": "green light"
+    },
+    {
+      "question": "IMU stands for",
+      "answer": "Inertial measurement unit"
+    },
+    {
+      "question": "Which of these is not a consumptive value?",
+      "answer": "education"
+    },
+    {
+      "question": "The frequency of flyovers is an indicator of",
+      "answer": "temporal resolution"
     }
 ]
