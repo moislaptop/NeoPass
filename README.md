@@ -1,4 +1,4 @@
-<img width="1280" height="640" alt="NeoPass_Banner" src="https://github.com/user-attachments/assets/13782830-8c68-4edb-acaf-4ff1310d7938" />
+<img width="1500" height="500" alt="NeoPass Banner" src="https://github.com/user-attachments/assets/7369dd86-838d-4fdc-abdd-6b41a9b14aed" />
 
 # <i>**`Free`** NeoPass Extension</i>
 
